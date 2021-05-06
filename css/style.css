@@ -1,0 +1,813 @@
+@charset "UTF-8";
+
+
+/* começo do css */
+
+html {
+     width: auto;
+     background-color: #394a4a;
+}
+
+
+body {
+     width: 1020px;
+     margin: 0px auto 0px auto;
+     background-color: #508a8a;
+}      /*definir tamanho, cor e espaçamento do body de todas as pages*/  
+
+
+header {
+     margin: 0px auto -20px auto;
+}   /*espaçamento do header*/
+
+
+nav {
+
+     margin: 0px auto 0px auto;
+     background-color: #222424;
+     font-size: 0.7em;
+     padding: 20px;
+}     /*espaçamento do nav*/
+
+
+h1 {
+     margin: 20px 600px 20px 40px;
+     white-space: nowrap;  
+    font-family: Muli, sans-serif;
+     font-size: 3em;
+     color: #30312f;
+
+}
+
+h2 {
+     text-align: center;
+     font-family: Muli, sans-serif;
+     color: #30312f;
+}       /*deifinição dos padroes para titulos*/
+
+h3 {
+     font-family: Muli, sans-serif;
+     font-size: 1.35em;
+}
+
+p {
+     font-family: Gentuim Book Basic, serif;
+
+}        /*definição da fonte padrão para os textos*/
+
+ul li {
+     display: inline;
+}
+
+ul li a {
+     padding: 15px 20px 30px 20px;
+     color: #d8decd;
+     font-family: Muli, sans-serif;
+     font-size: 2.65em;
+     text-decoration: none;
+
+
+}           /* configurção do nav */
+  
+ul li a:hover {
+     height: auto;
+     resize: both;
+     color: black;
+
+     background-color: #d8decd;
+}
+
+
+article,
+aside,
+footer {
+     background-color: #e4e8e8;
+
+}  /*cor de fundo*/
+
+
+/* ----- até aqui foi definido cores, espaçamentos etc padrão para todas as paginas, daqui pra baixo é o css especifico de cada pagina ------- */
+
+
+/*article do index*/
+
+.article_index {
+     width: 640px;
+     margin: 0px 20px 40px 40px;
+     padding-bottom: 25px;
+     float: left;
+}
+
+.chihiro1 {
+     margin: 40px 0px 10px 40px;
+     float: left;
+}       /*posicionamento da foto da chihiro do article*/
+
+.dados1 {
+     color: #e4e8e8;
+     line-height: 0.8em;
+     background-color: #30312f;
+     font-family: Gentuim Book Basic, serif;
+     margin: 40px 40px 0px 0px;
+     float: right;
+     padding-right: 80px;
+     padding-bottom: 10px;
+}          /*posicionamento dos dados do filme*/
+
+.trailer {
+     align-content: center;
+     margin: 20px 200px 0px 40px;
+     float: none;
+}
+
+.sinopse {
+     font-family: Gentuim Book Basic, serif;
+     font-size: 1.1em;
+     text-align: justify;
+     padding-left: 40px;
+     padding-right: 40px;
+}
+
+.porco {
+     margin: 10px 45px 20px 55px;
+}
+
+.espiritos {
+     margin: 10px 20px 20px 45px;
+}
+
+
+/*aside do index*/
+.aside_index {
+     width: 260px;
+     margin: 0px 40px 0px 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 10px;
+     float: left;
+
+}        
+
+.miyazaki {
+     margin: 0px 60px 0px 55px;
+}
+
+.txt_aside1 {
+     font-size: 1.1em;
+     font-family: Gentuim Book Basic, serif;
+     margin: 10px 30px 0px 55px;
+    
+     padding-bottom: 0px;
+
+}
+
+.chihiro2 {
+     margin: 0px 60px 0px 55px;
+
+}
+
+.txt_aside2 {
+     font-size: 1.1em;
+     font-family: Gentuim Book Basic, serif;
+     margin: 10px 30px 0px 55px;
+     padding-top: 0px;
+     
+
+
+}
+
+
+
+/*section (personagens) do index*/
+
+.section_home {
+     background-color: #e4e8e8;
+     float: left;
+     margin-top: 0px;
+     margin-right: 40px;
+     margin-bottom: 40px;
+     margin-left: 40px;
+     padding-top: 0px;
+     padding-right: 55px;
+     padding-bottom: 20px;
+     padding-left: 55px;
+}
+
+.haku_home {
+     margin: auto 40px auto 0px;
+}
+
+.yuubaba_home {
+     margin: auto 40px auto 40px;
+}
+
+.kaonashi_home {
+     margin: auto 0px auto 40px;
+}
+
+
+/*footer do index*/
+
+footer {
+     height: 220px;
+     clear: both;
+
+}
+
+.imgFot {
+     position: relative;
+     left: 600px;
+     bottom: 150px;
+}
+
+.navfooter {
+     padding: 0px;
+     font-size: 0.4em;
+     position: relative;
+     left: 300px;
+     bottom: 350px;
+     right: 100px;
+
+}
+
+/* FIM DO CSS DO INDEX*/
+
+
+
+/*COMEÇO DO CSS DA OBRA*/
+
+/*article de "a obra*/
+
+.section_obra {
+     background-color: #e4e8e8;
+     width: 880px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 20px;
+     padding-right: 100px;
+     float: left;
+}
+
+.titulo_obra {
+     margin-left: 420px;
+} /*class do titulo pois ela esta posicinada no meio, diferente das outras pages*/
+
+.banner_obra {
+     margin-left: 180px;
+}
+
+
+
+.article_obra {
+
+     width: 600px;
+     font-size: 1.1em;
+     margin-top: 0px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     padding: 0px;
+     padding-left: 40px;
+     padding-right: 0px;
+     padding-bottom: 20px;
+     float: left;
+
+}
+
+.p1 {
+     padding-top: 30px;
+}
+
+.p2 {
+     padding-top: 30px;
+}
+
+.p3 {
+     padding-top: 10px;
+}
+
+
+.citacao {
+     padding-top: 20px;
+} 
+
+.citacao2 {
+     padding-left: 450px;
+}    /* css para posicionar a citação do Miyazaki de forma correta*/
+
+
+
+.restaurante {
+     background-color: #e4e8e8;
+     margin-right: 20px;
+     padding-top: 60px;
+     padding-right: 40px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     float: right;
+}
+
+.ofuro {
+     background-color: #e4e8e8;
+     margin-right: 20px;
+     padding-top: 20px;
+     padding-right: 40px;
+     padding-bottom: 47px;
+     padding-left: 20px;
+
+     float: right;
+}
+
+
+/* FIM DO CSS DA PAGINA A OBRA*/
+
+
+
+
+/*começo da pagina personagens*/
+
+
+
+/*css das imagens dos personagens*/
+
+.section_img_personagens {
+     width: 140px;
+     float: left;
+     margin-left: 40px;
+
+}
+
+.chihiro_personagens {
+     margin-bottom: 18px;
+     float: left;
+}
+
+.haku_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.yubaba_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.kamaji_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.deusrio_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.semface_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.boo_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.pais_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+.lin_personagens {
+     margin-bottom: 20px;
+     float: left;
+}
+
+
+
+
+/*css dos texto de cada personagem*/
+
+.personagem1 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 20px;
+     float: right;
+} 
+
+.p_p1 {
+     font-size: 1.1em;
+     margin: 0px;
+}
+
+
+.personagem2 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 30px;
+     float: right;
+}
+
+.p_p2 {
+
+     font-size: 1.1em;
+     margin: 0px;
+
+}
+
+.personagem3 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 20px;
+
+
+     float: right;
+}
+
+.p_p3 {
+     font-size: 1.1em;
+     margin-bottom: 0px;
+}
+
+
+.personagem4 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 35px;
+     float: right;
+}
+
+.p_p4 {
+     font-size: 1.1em;
+     margin-bottom: 0px;
+}
+
+
+.personagem5 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-top: -10px;
+     padding-bottom: 15px;
+     float: right;
+}
+
+.p_p5 {
+     font-size: 1.1em;
+     margin: 0px;
+}
+
+
+.personagem6 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 35px;
+     float: right;
+}
+
+.p_p6 {
+     font-size: 1.1em;
+     margin: 0px;
+}
+
+
+.personagem7 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 35px;
+     float: right;
+}
+
+.p_p7 {
+     font-size: 1.2em;
+     margin: 0px;
+}
+
+
+.personagem8 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-bottom: 40px;
+     float: right;
+}
+
+.p_p8 {
+     font-size: 1.1em;
+     margin: 00px;
+}
+
+
+.personagem9 {
+     background-color: #e4e8e8;
+     width: 750px;
+     margin: 0px 40px 20px -40px;
+     padding: 10px;
+     padding-top: 20px;
+     padding-bottom: 45px;
+     float: right;
+}
+
+.p_p9 {
+     font-size: 1.1em;
+     margin: 0px;
+}
+
+/*FIM DO CSS DA PAGINA PERSONAGENS*/
+
+
+
+
+/*começo da pagina autor*/
+
+
+
+/*css do article do autor e tambem da banner do article*/
+.article_autor {
+     text-align: justify;
+     font-size: 1.1em;
+     width: 580px;
+     float: left;
+     margin: 0px 20px 20px 40px;
+     padding-top: 20px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     padding-left: 40px;
+
+}
+
+.banner_autor {
+     margin-left: 20px;
+}
+
+
+/*css do aside para posicionar a o titulo a foto e tambem as informações sobre ele*/
+
+.aside_autor {
+     font-size: 0.9em;
+     width: 240px;
+     float: right;
+     margin: 0px 40px 0px 0px;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+.texto_miyazaki{
+     margin-left: 15px;
+}
+
+.lista_trabalho{
+     margin-right: 10px;
+     padding-left: 20px;
+}
+
+.miyazaki_autor {
+     margin-left: 30px;
+     
+}
+
+
+
+
+/*css para posicionar as "outras obras"*/
+
+.outras_obras {
+     float: left;
+     margin: 0px 20px 20px 20px;
+     
+}
+
+     
+
+
+.titulo_obras {
+     font-size: 2em;
+
+     margin-right: 730px;
+}
+
+.img1 {
+     margin: auto 15px 20px 20px;
+     
+}
+    
+.img2 {
+     
+     margin: auto 15px 20px 0px;
+}
+
+.img3 {
+     margin: auto 15px 20px 0px;
+}
+
+.img4 {
+     margin: auto 0px 20px 0px;
+}
+
+.img5 {
+     margin: auto 15px 20px 20px;
+}
+
+.img6 {
+     margin: auto 15px 20px 0px;
+}
+
+.img7 {
+     margin: auto 15px 20px 0px;
+}
+
+.img8 {
+     margin: auto 0px 20px 0px;
+}
+
+
+
+.img1:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+
+.img2:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img3:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img4:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img5:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img6:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img7:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+.img8:hover{
+     opacity: 60%;
+     background-color: black;
+
+}
+
+
+/*FIM DO CSS DA PAGINA O AUTOR*/
+
+
+
+
+
+/* começo da pagina credito */
+
+
+
+/*css da tabela*/
+
+table,
+tr,
+td {
+
+     background-color: #394a4a;
+     color: #e4ebeb;
+     text-align: left;
+     border: solid 1px;
+     padding: 3px;
+}
+
+th {
+     background-color: black;
+}
+
+table {
+     margin-left: 60px;
+     margin-bottom: 20px;
+     width: 820px;
+     position: relative;
+     left: 40px;
+}
+
+
+/* FIM DA PAGINA CREDITOS */
+
+
+
+
+/* começo da pagina resenha */
+
+
+
+/*css da resenha critica*/
+
+.section_resenha {
+     font-size: 1.1em;
+     margin: 20px 100px 20px 100px;
+
+}
+
+.haku_chihiro {
+     margin: 0px 10px 0px 40px;
+}
+
+.lixo {
+     margin: 0px 20px 0px 10px;
+
+}
+
+
+
+/*css do "sobre mim"*/
+
+.sobre_mim {
+     background-color: #d8decd;
+     margin-right: 60px;
+     margin-left: 60px;
+     padding-bottom: 30px;
+     padding-left: 20px;
+
+}
+
+.imagem_minha {
+
+     margin-right: 20px;
+     float: left;
+}
+
+.sobremimtxt {
+     float: left;
+     margin-right: 60px;
+
+
+
+}
+
+
+
+
+/* css do formulario*/
+
+.formulario {
+     margin: 20px 40px 20px 100px;
+
+}
+
+.nome_email {
+
+     float: left;
+}
+
+.idade {
+     margin: 0px 0px 20px 20px;
+
+     float: left;
+}
+
+.sexo {
+     margin: -17px -20px 0px 0px;
+     float: left;
+}
+
+.caixa_texto {
+
+     width: 200px;
+     margin-left: 20px;
+     margin-bottom: 10px;
+     float: left;
+
+}
+
+.tamanho {
+     width: 550px;
+     height: 300px;
+
+}
+
+
+
+
+
